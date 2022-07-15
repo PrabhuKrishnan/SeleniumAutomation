@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumTest" duration-ms="25693" started-at="2022-07-15T15:48:01 IST" finished-at="2022-07-15T15:48:27 IST">
+    <groups>
+    </groups>
+    <test name="AutomationTest" duration-ms="25693" started-at="2022-07-15T15:48:01 IST" finished-at="2022-07-15T15:48:27 IST">
+      <class name="seleniumAutomation.ActionClassOperation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumAutomation.ActionClassOperation@75881071]" name="setup" is-config="true" duration-ms="8759" started-at="2022-07-15T15:48:01 IST" finished-at="2022-07-15T15:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="actionClassTest()[pri:0, instance:seleniumAutomation.ActionClassOperation@75881071]" name="actionClassTest" duration-ms="303" started-at="2022-07-15T15:48:24 IST" finished-at="2022-07-15T15:48:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionClassTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:seleniumAutomation.ActionClassOperation@75881071]" name="afterTest" is-config="true" duration-ms="1061" started-at="2022-07-15T15:48:25 IST" finished-at="2022-07-15T15:48:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- seleniumAutomation.ActionClassOperation -->
+      <class name="seleniumAutomation.BrowserTabs">
+        <test-method status="PASS" signature="test()[pri:0, instance:seleniumAutomation.BrowserTabs@2a70a3d8]" name="test" duration-ms="14098" started-at="2022-07-15T15:48:10 IST" finished-at="2022-07-15T15:48:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:seleniumAutomation.BrowserTabs@2a70a3d8]" name="tear_down" is-config="true" duration-ms="1404" started-at="2022-07-15T15:48:26 IST" finished-at="2022-07-15T15:48:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- seleniumAutomation.BrowserTabs -->
+    </test> <!-- AutomationTest -->
+  </suite> <!-- SeleniumTest -->
+</testng-results>
